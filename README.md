@@ -9,7 +9,7 @@
 3. `style.css` moved tables bored, background-color, 
 
 ## Link:
-   https://mashaelalmosallam.github.io/Project-00/   
+* [Tic-Tac-Toe](https://mashaelalmosallam.github.io/Project-00/)
 
 ## What's next:
 * Try making it with JQuery.
