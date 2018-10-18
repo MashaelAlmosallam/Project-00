@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tic-tac-toe</title>
+    <!--  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- class="animated bounce" -->
+
+<body onload="startGame()">
+    <h2><i>tic tac toe</i></h2>
+    <div id="message"></div>
+    <table id="table">
+        <tr>
+            <td class="box" id="0"></td>
+            <td class="box" id="1"></td>
+            <td class="box" id="2"></td>
+        </tr>
+        <tr>
+            <td class="box" id="3"></td>
+            <td class="box" id="4"></td>
+            <td class="box" id="5"></td>
+        </tr>
+        <tr>
+            <td class="box" id="6"></td>
+            <td class="box" id="7"></td>
+            <td class="box" id="8"></td>
+        </tr>
+    </table>
+    <div class="endGame">
+        <div class="text"></div>
+    </div>
+    <button class="button" onclick="startGame();">Replay</button>
+    <script src="main.js"></script>
+</body>
+
+</html>
