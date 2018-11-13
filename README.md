@@ -1,5 +1,5 @@
 # Project-00
-## Explination of the technologies:
+## Explanation of the technologies::
 * HTML
 * CSS
 * JavaScript
